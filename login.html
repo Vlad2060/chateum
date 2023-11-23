@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/login.css">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <article id="login-panel" class="column">
+        <h1>Chateum</h1>
+
+        <label for="">Your mail: </label>
+        <input type="email" name="" id="mail" placeholder="Write here...">
+
+        <label for="">Your password: </label>
+        <input type="password" name="" id="password" placeholder="Write here...">
+            
+        <button id="submit">Login</button>
+
+        <p>You already don`t have an account?</p>
+        <button id="register-panel-button">Register</button>
+    </article>
+
+    <article id="register-panel" class="column">
+        <h1>Chateum</h1>
+
+        <div class="row center">
+            <label for="">Your avatar: </label>
+            <div class="avatar-input">
+                <input type="file" id="fileInput" name="fileInput" class="hidden" />
+                <label for="fileInput" id="fileInputLabel">+</label>
+            </div>
+        </div>
+        
+        
+        <label for="">Your nickname: </label>
+        <input type="text" name="" id="nickname" placeholder="Write here...">
+
+        <label for="">Your email: </label>
+        <input type="email" name="" id="email" placeholder="Write here...">
+
+        <label for="">Your password: </label>
+        <input type="password" name="" id="password" placeholder="Write here...">
+            
+        <button id="register-button">Register</button>
+        <button id="return">Return</button>
+    </article>
+
+</body>
+    <script src="index.js"></script>
+</html>
